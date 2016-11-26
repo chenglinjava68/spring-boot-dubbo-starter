@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: spring-boot-dubbo-consumer
+  protocol:
+    name: dubbo
+    host: 127.0.0.1
+    port: 20880
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1
+    port: 2181
